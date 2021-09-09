@@ -44,7 +44,7 @@ export const Table = () => {
 
          <form action="" submit={e => e.preventDefault()}>
             <input type="text"
-               placeholder="Поиск по заголовку"
+               placeholder="Поиск по заголовку..."
                onChange={(e) => setValue(e.target.value)}
             />
          </form>
